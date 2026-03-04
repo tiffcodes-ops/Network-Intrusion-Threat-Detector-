@@ -27,17 +27,6 @@ Classification: Passing features through a trained classifier to label traffic a
 
 Reporting: Highlighting high-risk events in a terminal dashboard or log file.
 
-📂 Repository Structure
-Plaintext
-├── data/               # Dataset samples (NSL-KDD / CSVs)
-├── models/             # Pre-trained .pkl or .h5 models
-├── notebooks/          # Exploratory Data Analysis (EDA) and Training
-├── src/
-│   ├── sniffer.py      # Packet capture logic
-│   ├── preprocessor.py # Data cleaning and feature scaling
-│   └── classifier.py   # Prediction engine
-├── requirements.txt    # Python dependencies
-└── main.py             # Main execution entry point
 🔮 Future Enhancements
 Deep Learning Integration: Implementing an LSTM (Long Short-Term Memory) network to better analyze sequential packet patterns over time.
 
